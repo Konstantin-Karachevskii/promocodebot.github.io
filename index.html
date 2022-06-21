@@ -22,13 +22,10 @@ function transformToAssocArray( prmstr ) {
     return params;
 }
 var params = getSearchParameters();
-
- // alert(JSON.stringify(params));
             let vars = {
                 variables: params
             };
             ssDeepLink('deep-link', 'httpkarac', true, vars);
 </script>    
-     
     </body>
 </html>
